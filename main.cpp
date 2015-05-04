@@ -46,11 +46,11 @@ int main(){
 		inRange(Dframe1, Scalar(50), Scalar(200),df3);
 		df4+=df3;
 
-		for(r=0; r<df3.rows; r++){
+/*		for(r=0; r<df3.rows; r++){
 			for(c = 0; c < df3.cols; c++){
 
 			}
-		}
+		}*/
 		imshow("DV2",df3);
 		}
 	return 0;
